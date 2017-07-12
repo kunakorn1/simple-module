@@ -11,7 +11,7 @@ script:
 deploy:
   provider: npm
   email: k.wongsin@togetherteam.co.th
-  api_key: a570df7b-42c2-44c4-b655-12089ce20851
+  api_key: $NPM_TOKEN2
   on:
     branch: b1
   skip_cleanup: true

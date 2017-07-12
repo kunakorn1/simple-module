@@ -11,7 +11,7 @@ script:
 deploy:
   provider: npm
   email: k.wongsin@togetherteam.co.th
-  api_key: @NPM_TOKEN
+  api_key: $NPM_TOKEN
   on:
     tags: true
   skip_cleanup: true

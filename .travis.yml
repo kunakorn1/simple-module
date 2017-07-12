@@ -2,9 +2,11 @@ language: node_js
 node_js:
 - "7"
 
-install:
+before_script:
 - npm install
-- npm install ruby gen -g
+
+script:
+- echo "Hello!!"
 
 deploy:
   provider: npm

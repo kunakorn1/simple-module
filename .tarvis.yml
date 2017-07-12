@@ -7,5 +7,5 @@ deploy:
   email: k.wongsin@togetherteam.co.th
   api_key_ @NPM_TOKEN
   on:
-    tags: true 
+    tags: true
   skip_cleanup: true

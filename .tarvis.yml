@@ -2,6 +2,13 @@ language: node_js
 node_js:
 - "7"
 
+before_install:
+- npm i -g makeshift && makeshift -s @kunakorn -r registry.npmjs.org
+
+install:
+- npm install
+- npm install ruby gen -g
+
 deploy:
   provider: npm
   email: k.wongsin@togetherteam.co.th

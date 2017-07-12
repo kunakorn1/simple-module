@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- "7"
+
+deploy:
+  provider: npm
+  email: k.wongsin@togetherteam.co.th
+  api_key_ @NPM_TOKEN
+  on:
+    tags: true
+  skip_cleanup: true

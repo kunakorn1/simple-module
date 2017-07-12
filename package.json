@@ -9,5 +9,9 @@
   "license": "MIT",
     "publishConfig": {
         "access": "public"
-    }
+    },
+  "repository":{
+    "type": "https",
+    "url": "https://github.com/kunakorn1/simple-module.git"
+  }
 }

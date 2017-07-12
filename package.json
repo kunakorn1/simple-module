@@ -1,0 +1,13 @@
+{
+  "name": "@kunakorn/simple-module",
+  "version": "1.0.0",
+  "description": "Test publishing package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'There is no testing script.'"  },
+  "author": "",
+  "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    }
+}

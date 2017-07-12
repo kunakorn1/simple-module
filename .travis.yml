@@ -13,5 +13,5 @@ deploy:
   email: k.wongsin@togetherteam.co.th
   api_key: a570df7b-42c2-44c4-b655-12089ce20851
   on:
-    tags: true
+    branch: b1
   skip_cleanup: true
